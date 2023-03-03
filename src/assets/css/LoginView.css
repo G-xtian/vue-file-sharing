@@ -1,42 +1,30 @@
+/*最外层div*/
 .home {
     height: 100%;
 }
-.el-header, .el-footer {
-    background-color: #B3C0D1;
-    color: #333;
-    text-align: center;
-    line-height: 60px;
+/*网页全屏*/
+.home_container{
+    height: 93%;
+    background-color: #ECEFFF;
+    /*background: linear-gradient(90deg,#ECEFFF,black);*/
 }
 
 .el-aside {
-    background-color: #D3DCE6;
-    color: #333;
-    text-align: center;
-    line-height: 200px;
-    height: 100%;
+    height: 93%;
+    width: 60%;
 }
 
 .el-main {
-    background-color: #E9EEF3;
-    color: #333;
-    text-align: center;
-    line-height: 160px;
-    height: 100%;
+    height: 93%;
 }
 
-.el-container{
-    height: 100%;
+.left_img{
+    border-radius: 20px;
+    box-shadow: -0.2px 1px 0px -0.2px #FFFFFF;
+    margin-left: 20%;
+    margin-top: 12%;
 }
 
-body > .el-container {
-    margin-bottom: 40px;
-}
-
-.el-container:nth-child(5) .el-aside,
-.el-container:nth-child(6) .el-aside {
-    line-height: 260px;
-}
-
-.el-container:nth-child(7) .el-aside {
-    line-height: 320px;
+.home_footer{
+    height: 6%;
 }

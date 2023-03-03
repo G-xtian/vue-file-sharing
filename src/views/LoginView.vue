@@ -1,25 +1,21 @@
 <template>
     <div class="home">
-        <el-container>
-<!--            头部-->
-            <el-header >
+        <!--        上面整体-->
+        <el-container class="home_container">
+            <!--                左边部分-->
+            <el-aside class="home_container_left" width="60%">
+                <img class="left_img" src="../assets/img/Login.png" alt="加载失败">
+            </el-aside>
+            <!--                内容-->
+            <el-main class="home_container_right">
 
-                Header
-            </el-header>
-            <el-container>
-                <el-aside width="200px">Aside</el-aside>
-                <el-main>
-                    <el-row>
-                        <el-button>默认按钮</el-button>
-                        <el-button type="primary">主要按钮</el-button>
-                        <el-button type="success">成功按钮</el-button>
-                        <el-button type="info">信息按钮</el-button>
-                        <el-button type="warning">警告按钮</el-button>
-                        <el-button type="danger">危险按钮</el-button>
-                    </el-row>
-                </el-main>
-            </el-container>
+            </el-main>
         </el-container>
+        <!--        底部-->
+        <el-footer class="home_footer">
+            <span></span>
+            <span></span>
+        </el-footer>
     </div>
 </template>
 
@@ -28,8 +24,6 @@
     import "@/assets/css/LoginView.css"
 
     export default {
-        components: {
-
-        }
+        components: {}
     }
 </script>
