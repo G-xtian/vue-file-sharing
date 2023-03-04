@@ -11,7 +11,10 @@ Vue.use(ElementUI);
 import './assets/css/style.css'
 Vue.config.productionTip = false
 
-
+// 引入iView组件
+import iView from 'iview';
+import 'iview/dist/styles/iview.css';    // 使用 CSS
+Vue.use(iView);
 
 new Vue({
   router,
