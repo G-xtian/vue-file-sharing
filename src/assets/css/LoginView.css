@@ -4,27 +4,47 @@
 }
 /*网页全屏*/
 .home_container{
-    height: 93%;
+    height: 94.5%;
     background-color: #ECEFFF;
     /*background: linear-gradient(90deg,#ECEFFF,black);*/
 }
 
 .el-aside {
-    height: 93%;
+    height: 94.5%;
     width: 60%;
 }
 
 .el-main {
-    height: 93%;
+    height: 94.5%;
 }
 
 .left_img{
     border-radius: 20px;
-    box-shadow: -0.2px 1px 0px -0.2px #FFFFFF;
+    box-shadow: -0.2px 1px 0 -0.2px #FFFFFF;
     margin-left: 20%;
     margin-top: 12%;
 }
 
 .home_footer{
-    height: 6%;
 }
+
+.footer_a{
+    text-align: center;
+    font-size: 15px;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+.footer_span{
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0;
+    color: #999;
+}
+
+span{
+    margin-left: 6px;
+}
+

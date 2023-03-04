@@ -3,8 +3,6 @@
         <img alt="Vue logo" src="../assets/logo.png">
         <el-header>
 
-
-            fdsa
         </el-header>
     </div>
 </template>

@@ -8,13 +8,24 @@
             </el-aside>
             <!--                内容-->
             <el-main class="home_container_right">
+                <form action="">
 
+
+                </form>
             </el-main>
         </el-container>
         <!--        底部-->
-        <el-footer class="home_footer">
-            <span></span>
-            <span></span>
+        <el-footer class="home_footer" height="">
+            <div class="footer_a">
+                <a href="AboutView.vue">用户协议</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="AboutView.vue">隐私特权</a>
+            </div>
+            <div class="footer_span">
+                <span>粤ICP备09210879号-50</span>
+                <span>|</span>
+                <span>济南市潮种计算机科技有限公司</span>
+                <span>|</span>
+                <span>联系方式:0393-3936-1234</span>
+            </div>
         </el-footer>
     </div>
 </template>
