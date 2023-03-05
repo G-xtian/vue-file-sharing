@@ -4,18 +4,18 @@
 }
 /*网页全屏*/
 .home_container{
-    height: 94.5%;
+    height: 94%;
     background-color: #ECEFFF;
     /*background: linear-gradient(90deg,#ECEFFF,black);*/
 }
 
 .el-aside{
-    height: 94.5%;
+    height: 94%;
     width: 60%;
 }
 
 .el-main{
-    height: 94.5%;
+    height: 94%;
     display: flex !important;
     align-items: center;
     flex-direction: column;
@@ -42,33 +42,10 @@
     object-fit: contain;
 }
 
-.right_form{
-    height: 70%;
-    width: 70%;
+.right_Login{
+    width: 60%;
     background-color: #FFFFFF;
     border-radius: 10px;
-}
-
-.form_login_mode{
-    width: 100%;
-    height: 45px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 18px;
-}
-
-.form_login_mode a{
-    color: black;
-}
-
-.login_message{
-    margin-left: 8%;
-}
-
-.login_barcode{
-    margin-right: 8%;
 }
 
 .footer_a{
